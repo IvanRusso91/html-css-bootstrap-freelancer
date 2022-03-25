@@ -1,4 +1,16 @@
 
+
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+
 /* DEBUG */
 
 .debug{
@@ -11,15 +23,29 @@
   border: 1px solid black;
 }
 
+.debug2{
+  background-color: antiquewhite;
+  border: 1px solid black;
+  
+}
 
 .h100{
   height: 100px;
 }
 
-.h250{
-  height: 250px;
+.h-cent{
+  height: 100%;
 }
 
-.h800{
-  height: 800px;
+.h200{
+  height: 200px;
+}
+
+.h400{
+  width: 400px;
+  height: 400px;
+}
+
+.h600{
+  height: 600px;
 }
