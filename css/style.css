@@ -1,0 +1,25 @@
+
+/* DEBUG */
+
+.debug{
+  background-color: blue;
+  border: 1px solid black;
+}
+
+.debug1{
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+
+.h100{
+  height: 100px;
+}
+
+.h250{
+  height: 250px;
+}
+
+.h800{
+  height: 800px;
+}
