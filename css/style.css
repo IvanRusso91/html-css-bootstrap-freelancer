@@ -1,27 +1,28 @@
 
 /* HEADER */
 
-div.head{
+.head{
   background-color: rgb(44, 62, 80);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  z-index: 999;
 }
 
 div.start h4{
   color: white;
   text-transform: uppercase;
-}
-
-div.h-bars,
-div.start,
-div.list{
-  margin-top: 30px;
+  padding: 15px 0;
 }
 
 div.h-bars i{
   color: rgb(136, 136, 136);
   cursor: pointer;
-  margin-left:100px;
   padding: 8px 15px;
-  border: 1px solid white;  
+  border: 1px solid white; 
+  border-radius: 5px; 
 }
 
 /* Lista */
@@ -31,12 +32,17 @@ ul{
   display: flex;
 }
 
+li.left{
+  padding-left: 50px;
+}
+
 li{
   color: white;
   font-weight: bold;
   list-style: none;
   justify-content: space-around;
   text-transform: uppercase;
+  padding-top: 20px;
   
 }
 
@@ -100,6 +106,11 @@ div.about{
   background-color: rgb(26, 188, 156);
 }
 
+div.ir-container{
+  width: 70%;
+  margin: auto;
+}
+
 div.text-lore{
   text-align: left;
   background-color: rgb(26, 188, 156);
@@ -121,8 +132,8 @@ div.btn-2 span{
 
 div.btn-2{
   text-align: left;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 25px;
+  padding-bottom: 40px;
 }
 
 div.btn a,
@@ -134,8 +145,13 @@ div.contact h2{
   color: rgb(44, 62, 80);
 }
 
-div.col-12 input{
-  padding-right: 65%;
+div.contact-2 .col-12{
+  margin-bottom: 10px;
+}
+
+div.col-12 input,
+.text-box{
+  width: 100%;
   padding-bottom: 10px;
   border: none;
   border-bottom: 1px solid;
@@ -146,9 +162,16 @@ div.col-12 span{
   border: none;
   text-align: left;
 }
+
+
 /* /MAIN */
 
 /* fOOTER */
+
+footer{
+  background-color: rgb(58, 84, 109);
+
+}
 
 div.col-sm-12 .fa-facebook-f{
   padding: 15px 18px;
@@ -156,6 +179,7 @@ div.col-sm-12 .fa-facebook-f{
   border: 1px solid white;
   color: white;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 div.col-sm-12 .fa-google-plus-g,
@@ -167,6 +191,7 @@ div.col-sm-12 .fa-linkedin-in{
   color: white;
   margin-left: 10px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 div.location h4,
@@ -200,6 +225,7 @@ div.around{
 
 div.about-2 .boot{
   color: rgb(26, 188, 156);
+  cursor: pointer;
 }
 
 div.copy span{
