@@ -30,6 +30,15 @@ div.h-bars i:hover{
   background-color: rgb(27, 38, 49);
 }
 
+div.riga{
+  display: inline-block;
+  border-color: rgb(58, 84, 109);
+  width: 20%;
+  border: 1px solid;
+  margin-bottom: 10px;
+  background-color: rgb(58, 84, 109);
+}
+
 /* Lista */
 
 ul{
@@ -84,7 +93,8 @@ h1{
   font-size: 3rem;
 }
 
-div.jumbotron .star{
+div.jumbotron .star,
+div.jumbotron .riga{
   color: white;
 }
 
@@ -98,12 +108,16 @@ div.jumbotron h2{
 
 /* MAIN */
 
+div.portfolio{
+  margin-bottom: 15px;
+}
+
 div.portfolio h2,
 div.about h2,
 div.contact{
   padding-top: 40px;
   text-transform: uppercase;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 div.portfolio h2{
@@ -127,6 +141,7 @@ div.aggiungi{
 }
 
 div.ir-card:hover .aggiungi{
+  border-radius: 10px;
   cursor: pointer;
   display: flex;
 }
@@ -144,9 +159,11 @@ div.col img{
 
 div.star,
 div.star2{
+  display: inline-block;
   color: rgb(44, 62, 80);
   font-size: 2rem;
   padding-bottom: 20px;
+  padding: 0 15px;
 }
 
 div.star2{
