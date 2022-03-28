@@ -141,10 +141,6 @@ div.col-12 input{
   border-bottom: 1px solid;
 }
 
-/* div.mess{
-  
-} */
-
 div.col-12 span{
   background-color: rgb(26, 188, 156);
   border: none;
@@ -157,7 +153,9 @@ div.col-12 span{
 div.col-sm-12 .fa-facebook-f{
   padding: 15px 18px;
   border-radius: 50%;
-  background-color: brown;
+  border: 1px solid white;
+  color: white;
+  margin-bottom: 20px;
 }
 
 div.col-sm-12 .fa-google-plus-g,
@@ -165,7 +163,52 @@ div.col-sm-12 .fa-twitter,
 div.col-sm-12 .fa-linkedin-in{
   padding: 15px;
   border-radius: 50%;
-  background-color: brown;
+  border: 1px solid white;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+div.location h4,
+div.around h4,
+div.about-2 h4,
+div.copy h4{
+  color: white;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+div.location span,
+div.about-2 span,
+div.copy span{
+  color: white;
+}
+
+div.location,
+div.about-2,
+div.copy{
+  padding-bottom: 20px;
+  background-color: rgb(58, 84, 109);
+  border: none;
+  font-weight: bold;
+}
+
+div.around{
+  background-color: rgb(58, 84, 109);
+  border: none;
+}
+
+div.about-2 .boot{
+  color: rgb(26, 188, 156);
+}
+
+div.copy span{
+  color: white;
+  font-size: 0.8rem;
+}
+div.copy{
+  padding: 30px 0;
+  background-color: rgb(44, 62, 80);
 }
 
 
