@@ -1,14 +1,185 @@
 
+/* HEADER */
+
+div.head{
+  background-color: rgb(44, 62, 80);
+}
+
+div.start h4{
+  color: white;
+  text-transform: uppercase;
+}
+
+div.h-bars,
+div.start,
+div.list{
+  margin-top: 30px;
+}
+
+div.h-bars i{
+  color: rgb(136, 136, 136);
+  cursor: pointer;
+  margin-left:100px;
+  padding: 8px 15px;
+  border: 1px solid white;  
+}
+
+/* Lista */
+
+
+ul{
+  display: flex;
+}
+
+li{
+  color: white;
+  font-weight: bold;
+  list-style: none;
+  justify-content: space-around;
+  text-transform: uppercase;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+li.center{
+  margin: 0px 30px;
+}
+
+/* /Lista */
+/* HEADER */
+
+/* Jumbotron */
 
 .jumbotron{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(26, 188, 156);
 }
 
-.text-center{
+/* .text-center{
   text-align: center;
+} */
+
+.d-flex{
+  display: flex;
 }
+/* /Jumbotron */
+
+/* MAIN */
+
+div.portfolio h2,
+div.about h2,
+div.contact{
+  padding-top: 40px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+div.portfolio h2{
+  color: rgb(44, 62, 80);
+}
+
+div.star,
+div.star2{
+  color: rgb(44, 62, 80);
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+div.star2{
+  color: white;
+}
+
+
+div.about{
+  color: white;
+  background-color: rgb(26, 188, 156);
+}
+
+div.text-lore{
+  text-align: left;
+  background-color: rgb(26, 188, 156);
+  padding: 20px;
+}
+
+div.btn{
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+div.btn span,
+div.btn-2 span{
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+div.btn-2{
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+div.btn a,
+div.btn-2 a{
+  color: white;
+}
+
+div.contact h2{
+  color: rgb(44, 62, 80);
+}
+
+div.col-12 input{
+  padding-right: 65%;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+/* div.mess{
+  
+} */
+
+div.col-12 span{
+  background-color: rgb(26, 188, 156);
+  border: none;
+  text-align: left;
+}
+/* /MAIN */
+
+/* fOOTER */
+
+div.col-sm-12 .fa-facebook-f{
+  padding: 15px 18px;
+  border-radius: 50%;
+  background-color: brown;
+}
+
+div.col-sm-12 .fa-google-plus-g,
+div.col-sm-12 .fa-twitter,
+div.col-sm-12 .fa-linkedin-in{
+  padding: 15px;
+  border-radius: 50%;
+  background-color: brown;
+}
+
+
+
+/* /fOOTER */
+
+
+
+
+
+
+
+
+
 
 
 /* DEBUG */
